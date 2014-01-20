@@ -1,0 +1,10 @@
+{
+    "name": "myplanetdigital-revealjs-theme",
+    "version": "0.0.1",
+    "description": "Myplanet Digital slide deck theme for Reveal.js.",
+    "license": "MIT",
+    "dependencies": {
+        "components-revealjs": ">=2.6.1"
+    },
+    "main": "myplanetdigital-revealjs-theme.css"
+}
