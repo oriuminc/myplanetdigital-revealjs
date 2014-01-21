@@ -1,15 +1,15 @@
-/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Open+Sans+Condensed:300,300italic,700);*/
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
 
 body {
-  background: #eeeeee url(images/bg.png);
+  background: #eee url(images/bg.png);
   background-size: 200px 200px;
 }
 
 .reveal {
-  /*font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;*/
-  font-size: 36px;
-  font-weight: 200;
   letter-spacing: -0.02em;
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 2.5em;
+  font-weight: 200;
   color: #221f1f;
 }
 
@@ -27,10 +27,11 @@ body {
 .reveal h6 {
   margin: 0 0 36px 0;
   color: #383d3d;
-  /*font-family: "Open Sans Condensed", "Helvetica Neue", Arial, Helvetica, sans-serif;*/
+  font-family: 'Pontano Sans', sans-serif;
   line-height: 1.1em;
   text-transform: none;
   text-shadow: none;
+  letter-spacing: -0.1em;
 }
 
 .reveal h1 {
@@ -48,7 +49,7 @@ body {
 }
 
 .reveal a:not(.image):hover {
-  color: #8b7c69;
+  color: #ee5b33;
   text-shadow: none;
   border: none;
 }
@@ -123,8 +124,7 @@ body {
 }
 
 .reveal a:hover img {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: #075293;
+  border-color: #ee5b33;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 }
 
@@ -149,19 +149,19 @@ body {
 }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #8b7c69;
+  border-right-color: #ee5b33;
 }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #8b7c69;
+  border-left-color: #ee5b33;
 }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #8b7c69;
+  border-bottom-color: #ee5b33;
 }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #8b7c69;
+  border-top-color: #ee5b33;
 }
 
 .reveal .progress {
@@ -178,7 +178,7 @@ body {
 }
 
 .reveal:after {
-  content: url("images/logo-alt.png");
+  content: url("images/logo.png");
   width: 200px;
   height: 200px;
   position: absolute;
