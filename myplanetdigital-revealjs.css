@@ -38,7 +38,7 @@ body {
   font-weight: bold;
 }
 
-.reveal h1 strong {
+.reveal h1 strong, .reveal h2 strong {
   font-size: 1.5em;
 }
 
