@@ -38,6 +38,10 @@ body {
   font-weight: bold;
 }
 
+.reveal h1 strong {
+  font-size: 1.5em;
+}
+
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
 }
@@ -259,11 +263,7 @@ body {
 }
 
 .subheader section h1,
-.subheader section h2,
-.subheader section h3,
-.subheader section h4,
-.subheader section h5,
-.subheader section h6 {
+.subheader section h2 {
   color: #ee5b33;
   font-weight: bold;
 }
@@ -276,9 +276,50 @@ body {
   padding-bottom: 10%;
 }
 
-.subheader body {
+.subheader .reveal {
   background-image: url("images/spaceship.png");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 660px 640px;
+}
+
+.content .reveal {
+  background-image: url("images/moon.png"), url('images/probe.png'), url('images/rocket.png');
+  background-position: bottom left, bottom right, top right;
+  background-repeat: no-repeat;
+  background-size: 379px 238px, 138px 64px, 199px 74px;
+}
+.content section h1,
+.content section h2 {
+  color: #ee5b33;
+  font-weight: bold;
+}
+.content section h3,
+.content section h4,
+.content section h5,
+.content section h6 {
+  font-weight: normal;
+}
+
+.content .reveal:after {
+  content: '';
+}
+
+.content2 section h1,
+.content2 section h2 {
+  color: #ee5b33;
+  font-weight: bold;
+}
+.content2 .reveal {
+  background-image: url("images/moontopright.png"), url("images/spaceman.png");
+  background-position: top right, 30% calc(100% - 200px);
+  background-repeat: no-repeat;
+  background-size: 246px 182px, 58px 80px;
+}
+
+.content3 .reveal {
+  background-image: url("images/moonbottomright.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 317px 197px;
 }
