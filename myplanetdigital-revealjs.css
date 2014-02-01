@@ -1,22 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
 
 body {
-  background: #fefefe url(images/bg.png);
-  background-size: 491px 360px;
+	background: #fefefe url(images/bg.png);
+	background-size: 491px 360px;
 }
 
 .reveal {
-  letter-spacing: -0.02em;
-  font-family: 'Pontano Sans', sans-serif;
-  font-size: 2.5em;
-  font-weight: 200;
-  color: #221f1f;
+	letter-spacing: -0.02em;
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 2.5em;
+	font-weight: 200;
+	color: #221f1f;
 }
 
 ::selection {
-  color: white;
-  background: #26351c;
-  text-shadow: none;
+	color: white;
+	background: #26351c;
+	text-shadow: none;
 }
 
 /**
@@ -28,117 +28,117 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0 0 36px 0;
-  color: #383d3d;
-  font-family: 'Pontano Sans', sans-serif;
-  line-height: 1.1em;
-  text-transform: none;
-  text-shadow: none;
-  letter-spacing: -0.05em;
-  font-weight: bold;
+	margin: 0 0 36px 0;
+	color: #383d3d;
+	font-family: 'Pontano Sans', sans-serif;
+	line-height: 1.1em;
+	text-transform: none;
+	text-shadow: none;
+	letter-spacing: -0.05em;
+	font-weight: bold;
 }
 
 .reveal h1 strong, .reveal h2 strong {
-  font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 .reveal h1 {
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+	text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
 }
 
 .reveal a:not(.image) {
-  color: #075293;
-  text-decoration: none;
-  -webkit-transition: color .15s ease;
-  -moz-transition: color .15s ease;
-  -ms-transition: color .15s ease;
-  -o-transition: color .15s ease;
-  transition: color .15s ease;
+	color: #075293;
+	text-decoration: none;
+	-webkit-transition: color .15s ease;
+	-moz-transition: color .15s ease;
+	-ms-transition: color .15s ease;
+	-o-transition: color .15s ease;
+	transition: color .15s ease;
 }
 
 .reveal a:not(.image):hover {
-  color: #ee5b33;
-  text-shadow: none;
-  border: none;
+	color: #ee5b33;
+	text-shadow: none;
+	border: none;
 }
 
 .reveal .roll span:after {
-  color: #fff;
-  background: #25211c;
+	color: #fff;
+	background: #25211c;
 }
 
 .reveal section p {
-  margin-bottom: 18px;
+	margin-bottom: 18px;
 }
 
 /**
  * Lists
  */
 .reveal section li {
-  margin-bottom: 18px;
+	margin-bottom: 18px;
 }
 .reveal section li ul,
 .reveal section li ol {
-  margin-top: 18px;
+	margin-top: 18px;
 }
 
 .reveal dl {
-  margin-bottom: 20px;
-  *zoom: 1;
-  width: 100%;
-  font-size: 90%;
+	margin-bottom: 20px;
+	*zoom: 1;
+	width: 100%;
+	font-size: 90%;
 }
 
 .reveal dt, .reveal dd {
-  line-height: 1.1em;
-  border-top: 1px solid rgba(0,0,0,0.2);
-  margin-bottom: 18px;
-  padding-top: 18px;
+	line-height: 1.1em;
+	border-top: 1px solid rgba(0,0,0,0.2);
+	margin-bottom: 18px;
+	padding-top: 18px;
 }
 
 .reveal dt:nth-child(1), .reveal dd:nth-child(2) {
-  border-top: none;
+	border-top: none;
 }
 
 .reveal dl:before, .reveal dl:after {
-  display: table;
-  line-height: 0;
-  content: "";
+	display: table;
+	line-height: 0;
+	content: "";
 }
 
 .reveal dl:after {
-  clear: both;
+	clear: both;
 }
 
 .reveal dt {
-  font-weight: bold;
-  float: left;
-  width: 10em;
-  clear: left;
-  text-align: right;
+	font-weight: bold;
+	float: left;
+	width: 10em;
+	clear: left;
+	text-align: right;
 }
 
 .reveal dd {
-  margin-left: 10em;
-  padding-left: 27px;
-  text-align: left;
+	margin-left: 10em;
+	padding-left: 27px;
+	text-align: left;
 }
 
 /**
  * Slide images
  */
 .reveal section img {
-  margin: 15px 0px;
-  -webkit-transition: all .2s linear;
-  -moz-transition: all .2s linear;
-  -ms-transition: all .2s linear;
-  -o-transition: all .2s linear;
-  transition: all .2s linear;
+	margin: 15px 0px;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
 }
 
 .reveal a:hover img {
-  border-color: #ee5b33;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+	border-color: #ee5b33;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 }
 
 /**
@@ -146,103 +146,103 @@ body {
  */
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #075293;
+	border-right-color: #075293;
 }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #075293;
+	border-left-color: #075293;
 }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #075293;
+	border-bottom-color: #075293;
 }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #075293;
+	border-top-color: #075293;
 }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #ee5b33;
+	border-right-color: #ee5b33;
 }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #ee5b33;
+	border-left-color: #ee5b33;
 }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #ee5b33;
+	border-bottom-color: #ee5b33;
 }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #ee5b33;
+	border-top-color: #ee5b33;
 }
 
 .reveal .progress {
-  background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.2);
 }
 
 /**
  * Blockquote
  */
 .reveal blockquote {
-  display: block;
-  position: relative;
-  width: 70%;
-  margin: 5px auto;
-  padding: 5px;
-  font-style: italic;
-  background: rgba(255,255,255,.05);
-  box-shadow: 0 0 2px rgba(0,0,0,.2);
-  border: none;
+	display: block;
+	position: relative;
+	width: 70%;
+	margin: 5px auto;
+	padding: 5px;
+	font-style: italic;
+	background: rgba(255,255,255,.05);
+	box-shadow: 0 0 2px rgba(0,0,0,.2);
+	border: none;
 }
 
 .reveal blockquote:before {
-  content: '\201C';
-  color: #ee5b33;
-  font-size: 150%;
-  font-style: italic;
+	content: '\201C';
+	color: #ee5b33;
+	font-size: 150%;
+	font-style: italic;
 }
 .reveal blockquote:after {
-  content: '\201D';
-  color: #ee5b33;
-  font-size: 150%;
-  font-style: italic;
+	content: '\201D';
+	color: #ee5b33;
+	font-size: 150%;
+	font-style: italic;
 }
 
 /**
  * The progress bar
  */
 .reveal .progress span {
-  background: #075293;
-  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+	background: #075293;
+	-webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+	-moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+	-ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+	-o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+	transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
 }
 
 /**
  * Logo at the bottom right
  */
 .reveal:after {
-  content: url("images/logo-alt.png");
-  width: 125px;
-  height: 125px;
-  right: 3em;
-  bottom: 1em;
-  position: absolute;
-  display: inline-block;
+	content: url("images/logo-alt.png");
+	width: 125px;
+	height: 125px;
+	right: 3em;
+	bottom: 1em;
+	position: absolute;
+	display: inline-block;
 }
 
 /**
  * Section States
  */
 .header body {
-  background-color: #050708;
-  background-image: none;
+	background-color: #050708;
+	background-image: none;
 }
 .header section h1,
 .header section h2,
@@ -250,76 +250,76 @@ body {
 .header section h4,
 .header section h5,
 .header section h6 {
-  color: white;
-  font-weight: bold;
+	color: white;
+	font-weight: bold;
 }
 
 .header section.present:not(.stack) {
-  background-image: url("images/brain.png");
-  background-position: center bottom;
-  background-size: 86px 74px;
-  background-repeat: no-repeat;
-  padding-bottom: 10%;
+	background-image: url("images/brain.png");
+	background-position: center bottom;
+	background-size: 86px 74px;
+	background-repeat: no-repeat;
+	padding-bottom: 10%;
 }
 
 .subheader section h1,
 .subheader section h2 {
-  color: #ee5b33;
-  font-weight: bold;
+	color: #ee5b33;
+	font-weight: bold;
 }
 
 .subheader section.present:not(.stack) {
-  background-image: url("images/spaceman.png");
-  background-position: center bottom;
-  background-size: 58px 80px;
-  background-repeat: no-repeat;
-  padding-bottom: 10%;
+	background-image: url("images/spaceman.png");
+	background-position: center bottom;
+	background-size: 58px 80px;
+	background-repeat: no-repeat;
+	padding-bottom: 10%;
 }
 
 .subheader .reveal {
-  background-image: url("images/spaceship.png");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: 660px 640px;
+	background-image: url("images/spaceship.png");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 660px 640px;
 }
 
 .content .reveal {
-  background-image: url("images/moon.png"), url('images/probe.png'), url('images/rocket.png');
-  background-position: bottom left, bottom right, top right;
-  background-repeat: no-repeat;
-  background-size: 379px 238px, 138px 64px, 199px 74px;
+	background-image: url("images/moon.png"), url('images/probe.png'), url('images/rocket.png');
+	background-position: bottom left, bottom right, top right;
+	background-repeat: no-repeat;
+	background-size: 379px 238px, 138px 64px, 199px 74px;
 }
 .content section h1,
 .content section h2 {
-  color: #ee5b33;
-  font-weight: bold;
+	color: #ee5b33;
+	font-weight: bold;
 }
 .content section h3,
 .content section h4,
 .content section h5,
 .content section h6 {
-  font-weight: normal;
+	font-weight: normal;
 }
 
 .content .reveal:after {
-  content: '';
+	content: '';
 }
 
 .content2 section h1,
 .content2 section h2 {
-  color: #ee5b33;
-  font-weight: bold;
+	color: #ee5b33;
+	font-weight: bold;
 }
 .content2 .reveal {
-  background-image: url("images/moontopright.png"), url("images/spaceman.png");
-  background-position: top right, 30% calc(100% - 200px);
-  background-repeat: no-repeat;
-  background-size: 246px 182px, 58px 80px;
+	background-image: url("images/moontopright.png"), url("images/spaceman.png");
+	background-position: top right, 30% calc(100% - 200px);
+	background-repeat: no-repeat;
+	background-size: 246px 182px, 58px 80px;
 }
 
 .content3 .reveal {
-  background-image: url("images/moonbottomright.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: 317px 197px;
+	background-image: url("images/moonbottomright.png");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: 317px 197px;
 }
